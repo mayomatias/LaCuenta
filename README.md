@@ -79,7 +79,17 @@ Para que **LaCuenta** funcione correctamente, es necesario conectar el proyecto 
 5. Luego **"Agregar usuario"**, los cuales tendran acceso a la app.
 
 
+### 5. Iniciar colecciones
 
+Antes de comenzar a utilizar la aplicación vamos a tener que crear dos colecciones en **Firestore**:
+**users** y **categories**
+
+1. Ir al servicio **Firestore Database**
+2. Hacer click en **Iniciar colección** y en **ID de la colección** establecer **users** (muy importante que se llame así para que funcione el sistema)
+3. Luego cuando pida **Agregar el primer documento** agregar el **nombre de un usuario** en el **ID de documento**
+4. Guardar
+5. Hacer click en **Iniciar colección** y en **ID de la colección** establecer **categories**
+6. Luego cuando pida **Agregar el primer documento** agregar **categories** en el **ID de documento** y en el campo también **categories** y establecer que sea un array de **strings**.
    
 
    
